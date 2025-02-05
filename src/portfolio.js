@@ -24,7 +24,7 @@ const projects = [
     name: 'Activity Based Model w/ SANDAG',
     description:
       'Created machine learning alternatives to SANDAG’s proprietary Activity-Based Model. Using their synthetic and census data, we predicted county-wide vehicle choices and trip destinations. Ultimately, we were able to decrease their model runtime by 90% while maintaining performance.',
-    stack: ['Scikit-Learn', 'ETL', 'Geospatial'],
+    stack: ['Python', 'Scikit-Learn', 'ETL', 'Geospatial'],
     sourceCode: 'https://github.com/ryansliao/SD-County-Trip-Destination-Prediction',
     livePreview: 'https://minjinde.github.io/dsc-capstone-website/',
   },
@@ -32,8 +32,15 @@ const projects = [
     name: 'Clothing Size Recommender System',
     description:
       'Fitted an unsupervised learning algorithm to predict a user’s most comfortable size based on clothing reviews from RentTheRunway. We identified the most predictive features and produced an XGBoost regression with a mean-squared error of 17.91.',
-    stack: ['Scikit-Learn', 'NLP'],
+    stack: ['Python', 'Scikit-Learn', 'NLP'],
     livePreview: 'https://drive.google.com/file/d/1UQ1S43EvXgThXNvGCiuV7LD5n_jPi6qa/view?usp=sharing',
+  },
+  {
+    name: 'China Soft Power Expansion Analysis',
+    description:
+      'Predicted where China will exert their soft power influence using FDI, import/export, UN voting, HDI, GDP, and polity score data to identify relevant variables. Our multiple models concluded a specific focus on Sub-Saharan African countries.',
+    stack: ['R', 'Random Forest', 'Data Visualization'],
+    sourceCode: 'https://github.com/ryansliao/China-Soft-Power-Expansion',
   }
 ]
 

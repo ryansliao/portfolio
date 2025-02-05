@@ -1,7 +1,7 @@
 # Portfolio
 
 Project portfolio made with the following template:
-(https://github.com/rjshkhr/cleanfolio-minimal).
+(https://github.com/rjshkhr/cleanfolio).
 
 ## License
 
