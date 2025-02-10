@@ -1,0 +1,5 @@
+fnm env --use-on-cd | Out-String | Invoke-Expression
+fnm use 16
+yarn start
+yarn build
+yarn deploy
