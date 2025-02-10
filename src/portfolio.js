@@ -10,7 +10,7 @@ const about = {
   role: 'Data Scientist, Machine Learning Engineer',
   description:
     "Hi there! I am a Master's Data Science student at the University of California San Diego and an AWS certified machine learning engineer. I have also worked at the U.S. Bureau of Fiscal Service and collaborated with the San Diego Association of Governments.",
-  resume: 'https://drive.google.com/file/d/1QTSmUlqShwWhJDki9mQ83ApVJyDtnKFz/view?usp=drive_link',
+  resume: 'https://github.com/ryansliao/portfolio/blob/main/files/Ryan_Liao_Resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/ryan-liao-95a871222/',
     github: 'https://github.com/ryansliao',
@@ -33,7 +33,7 @@ const projects = [
     description:
       'Fitted an unsupervised learning algorithm to predict a user’s most comfortable size based on clothing reviews from RentTheRunway. We identified the most predictive features and produced an XGBoost regression with a mean-squared error of 17.91.',
     stack: ['Python', 'Scikit-Learn', 'NLP'],
-    livePreview: 'https://drive.google.com/file/d/1UQ1S43EvXgThXNvGCiuV7LD5n_jPi6qa/view?usp=sharing',
+    livePreview: 'https://github.com/ryansliao/portfolio/blob/main/files/Clothing%20Fit%20Recommendation%20System.pdf',
   },
   {
     name: 'China Soft Power Expansion Analysis',
