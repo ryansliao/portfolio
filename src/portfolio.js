@@ -39,7 +39,7 @@ const projects = [
     name: 'China Soft Power Expansion Analysis',
     description:
       'Predicted where China will exert their soft power influence using FDI, import/export, UN voting, HDI, GDP, and polity score data to identify relevant variables. Our multiple models concluded a specific focus on Sub-Saharan African countries.',
-    stack: ['R', 'Random Forest', 'Data Visualization'],
+    stack: ['R', 'Random Forest', 'LDA', 'Data Visualization'],
     sourceCode: 'https://github.com/ryansliao/China-Soft-Power-Expansion',
   }
 ]
