@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Ryan Liao',
-  role: 'Data Scientist, Machine Learning Engineer',
+  role: 'Data Scientist, Full Stack Developer, Machine Learning Engineer',
   description:
-    "Hi there! I am a Master's Data Science student at the University of California San Diego and an AWS certified machine learning engineer. I have also worked at the U.S. Bureau of Fiscal Service and collaborated with the San Diego Association of Governments.",
+    "Hi there! I am a Master's data science student at the University of California San Diego and I work as a full stack developer with Instantour, a startup looking to help everyone experience the wonders of the world from the comfort of their own home. I am also an AWS certified machine learning engineer and I have worked at the U.S. Bureau of Fiscal Service and collaborated with the San Diego Association of Governments.",
   resume: 'https://github.com/ryansliao/portfolio/blob/main/files/Ryan_Liao_Resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/ryan-liao-95a871222/',
