@@ -21,6 +21,13 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Fantasy Disc Golf Web Application',
+    description:
+      'Uses PDGA API requests to fetch professional tournament player statistics. Users can login via third-party authentication, create their own league/team, invite other users, add players onto their team, customize league settings, and compete against each other.',
+    stack: ['C#', 'ASP.NET Core', 'JavaScript', 'Entity Framework Core'],
+    sourceCode: 'https://github.com/ryansliao/flickfantasydg',
+  },
+  {
     name: 'Activity Based Model w/ SANDAG',
     description:
       'Created machine learning alternatives to SANDAG’s proprietary Activity-Based Model. Using their synthetic and census data, we predicted county-wide vehicle choices and trip destinations. Ultimately, we were able to decrease their model runtime by 90% while maintaining performance.',
@@ -34,13 +41,6 @@ const projects = [
       'Fitted an unsupervised learning algorithm to predict a user’s most comfortable size based on clothing reviews from RentTheRunway. We identified the most predictive features and produced an XGBoost regression with a mean-squared error of 17.91.',
     stack: ['Python', 'Scikit-Learn', 'NLP'],
     livePreview: 'https://github.com/ryansliao/portfolio/blob/main/files/Clothing%20Fit%20Recommendation%20System.pdf',
-  },
-  {
-    name: 'China Soft Power Expansion Analysis',
-    description:
-      'Predicted where China will exert their soft power influence using FDI, import/export, UN voting, HDI, GDP, and polity score data to identify relevant variables. Our multiple models concluded a specific focus on Sub-Saharan African countries.',
-    stack: ['R', 'Random Forest', 'LDA', 'Data Visualization'],
-    sourceCode: 'https://github.com/ryansliao/China-Soft-Power-Expansion',
   }
 ]
 
@@ -48,11 +48,15 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'Python',
-  'SQL',
   'R',
+  'C#',
   'HTML',
   'JavaScript',
+  'CSS',
   'VBA',
+  'PostgreSQL',
+  'ASP.NET Core',
+  'Entity Framwork Core',
   'Git',
   'TensorFlow',
   'Scikit-Learn',
@@ -64,7 +68,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: '',
+  email: 'ryansliao.1107@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
