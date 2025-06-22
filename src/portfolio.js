@@ -26,6 +26,7 @@ const projects = [
       'Uses PDGA API requests to fetch professional tournament player statistics. Users can login via third-party authentication, create their own league/team, invite other users, add players onto their team, customize league settings, and compete against each other.',
     stack: ['C#', 'ASP.NET Core', 'JavaScript', 'Entity Framework Core'],
     sourceCode: 'https://github.com/ryansliao/flickfantasydg',
+    livePreview: 'https://flickfantasydg.azurewebsites.net/',
   },
   {
     name: 'Activity Based Model w/ SANDAG',
